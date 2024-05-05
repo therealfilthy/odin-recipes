@@ -1,0 +1,132 @@
+h1 {
+    font-family: helvetica, sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: helvetica, sans-serif;
+    background-color: #F8F7F5;
+}
+
+.parent {
+    display: flex;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 5%;
+    height: 50vh;
+    margin: 0;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    gap: 0;
+    text-align: left;
+    padding-top: 5%;
+    padding-right: 2%;
+    height: 50vh;
+    margin: auto;
+}
+
+div h1 {
+    z-index: 100;
+    color: black;
+}
+
+.img {
+    z-index: 1;
+    border-style: solid;
+    border-radius: 30%;
+    border-color: orange;
+    border-top-width: 8px;
+    border-right-width: 8px;
+}
+
+div p {
+    z-index: 100;
+    color: black;
+    width: 100%;
+    padding: 0px;
+}
+
+div h2 {
+    z-index: 100;
+    color: black;
+    width: 100%;
+    padding: 0px;
+}
+
+.darken-image {
+    filter: brightness(75%);
+}
+
+#main {
+    text-align: center;
+    padding-top: 20%;
+    height: 50vh;
+    margin: 0;
+    color: black;
+}
+
+
+.inline li {
+    list-style-type: none;
+    display: inline;
+    padding: 50px;
+    font-family: helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.inline li a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.inline li a:hover {
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+    padding: 15px 30px;
+}
+
+.read {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+.steps {
+    background-color: white;
+    width: 50%;
+    padding: 10px 30px;
+    border-style: solid;
+    border-radius: 30px;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.steps:hover {
+    transform: scale(1.2);
+    -webkit-transition: transform 0.5s;
+}
+
+.steps h3 {
+    color: orange;
+}
+
+.read .steps ul li {
+    list-style-type: none;
+}
+
+
